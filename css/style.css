@@ -37,7 +37,6 @@ list-style-type: none;
 .header >.container{
   display: flex;
   align-items: center;
-  
 }
 .container {
   width: 1200px;
@@ -52,10 +51,6 @@ list-style-type: none;
 .list{
    list-style-type: none;
    display: inline;
-}
-.visually-hidden{
-   position: fixed;
-   transform: scale(0);
 }
 body{
 font-family:"Roboto";
@@ -151,9 +146,20 @@ color:var(--accent-color)
    font-weight: 900;
    line-height:1.8;
    letter-spacing: 0.06em;
-   color:var(--primary-backgroungd-color);
+   color:#FFFFFF;
    background-color:var(--accent-color);
     }
+.button:hover,
+.button-hero:focus,
+.button-hero:active { 
+  text-align: center; 
+  font-weight: 500; 
+font-size: 16px;
+ line-height: 1.62; 
+letter-spacing: 0.03em; 
+color: var(--active-btn-color); 
+background-color: var(--active-btn-background-color);
+}
     /*--------------advantages----------------*/
  .advantages-title{
 margin-bottom: 10px;
@@ -235,7 +241,7 @@ color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
    line-height:1.7;
    color: var(--primary-backgroungd-color);
-   padding-bottom: 9px;
+  
    }
    .footer{
       background-color:var(--background-color);
@@ -244,13 +250,11 @@ color: rgba(255, 255, 255, 0.6);
    .footer-address{
     margin-top: 20px;
    }
-   .foter-item:not(:nth-last-child){
-     margin-bottom: 9px;
-   }
-   .button-hero{
-    background-color:var(--accent-color);
-    color:var(--primary-backgroungd-color);
-   }
+   .footer-item:not(:last-child) { 
+    margin-bottom: 9px;
+  }
+   
+   
    /*------------------portfolio---------------*/
    /*button*/
   .list-btn{
