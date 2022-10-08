@@ -79,7 +79,8 @@ header{
 }
 .logo-link-header{
   margin-right: 93px;
-
+  padding-top: 24px;
+  padding-bottom: 25px;
    font-family: 'Raleway';
    font-size: 26px;
    line-height: 1.1;
