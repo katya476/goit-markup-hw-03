@@ -69,8 +69,7 @@ background-color: var(--primary-backgroungd-color);
 }
 /*-------------------header----------------*/
 header{
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   border-bottom: 1px solid #ececec;
 }
 .list-item{
@@ -302,8 +301,7 @@ border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top:calk(-1* var(--gap));
-    margin-left:calk(-1* var(--gap)); 
+    gap: 30px;
   }
 
   .portfolio-title{
@@ -315,8 +313,7 @@ letter-spacing: 0.06em;
 color:var(--title-text-color);
   }
   .portfolio-item{
-    margin-top: var(--gap);
-    margin-left: var(--gap);
+    gap: 30px;
     flex-basis: calc(100% / 3- var(--gap));
   }
   .portfolio-paragraf{
